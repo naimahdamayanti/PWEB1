@@ -48,27 +48,43 @@
       - inset: Mendefinisikan batas sisipan 3D. Efeknya bergantung pada nilai warna batas
       - outset: Mendefinisikan batas awal 3D. Efeknya bergantung pada nilai warna batas
       - none: Tidak mendefinisikan batas
-      - hidden: Mendefinisikan perbatasan tersembunyi
+      - hidden: Mendefinisikan perbatasan tersembunyi<br>
       Properti border-styledapat memiliki satu hingga empat nilai (untuk batas atas, batas kanan, batas bawah, dan batas kiri).
       ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(122).png?rawtrue)
 
-  b. Box Model<br>
-     Semua elemen HTML dapat dianggap sebagai box. Dalam CSS, istilah "box model" digunakan ketika berbicara tentang desain dan tata letak. Box model CSS pada dasarnya adalah sebuah box       yang membungkus setiap elemen HTML. Terdiri dari: konten, padding, batas dan margin.<br>
-     Penjelasan dari berbagai bagian:<br>
-     - Content : Isi kotak, tempat teks dan gambar muncul
-     - Padding : Menghapus area di sekitar konten. Bantalannya transparan
-     - Border : Perbatasan yang mengelilingi padding dan konten
-     - Margin : Membersihkan area di luar perbatasan. Marginnya transparan
-     Model kotak memungkinkan kita menambahkan batas di sekitar elemen, dan menentukan ruang antar elemen. 
-     ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(119).png?rawtrue)
+   b. Box Model<br>
+      Semua elemen HTML dapat dianggap sebagai box. Dalam CSS, istilah "box model" digunakan ketika berbicara tentang desain dan tata letak. Box model CSS pada dasarnya adalah sebuah box       yang membungkus setiap elemen HTML. Terdiri dari: konten, padding, batas dan margin.<br>
+      Penjelasan dari berbagai bagian:<br>
+       - Content : Isi kotak, tempat teks dan gambar muncul<br>
+       - Padding : Menghapus area di sekitar konten. Bantalannya transparan<br>
+       - Border : Perbatasan yang mengelilingi padding dan konten<br>
+       - Margin : Membersihkan area di luar perbatasan. Marginnya transparan<br>
+       Model kotak memungkinkan kita menambahkan batas di sekitar elemen, dan menentukan ruang antar elemen. 
+       ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(119).png?rawtrue)
 
-  c. Tabel Hover
-     :hover pemilih pada tr untuk menyorot baris tabel dengan mengarahkan mouse, jadi saat kita mengarahkan mouse ke salah 1 baris di tabel maka baris tersebut akan memberikan efek yang       sudah diberikan
-     ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(121).png?rawtrue)
+    c. Tabel Hover<br>
+       :hover pemilih pada tr untuk menyorot baris tabel dengan mengarahkan mouse, jadi saat kita mengarahkan mouse ke salah 1 baris di tabel maka baris tersebut akan memberikan efek            yang sudah diberikan
+       ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(121).png?rawtrue)
 
-3. JavaScript<br>
-   JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif, yang dapat meningkatkan fungsionalitas pada halaman web. JavaScript      untuk memprogram perilaku halaman web. JavaScript functionadalah blok kode JavaScript, yang dapat dieksekusi ketika "dipanggil". Misalnya, suatu fungsi dapat dipanggil ketika suatu       peristiwa terjadi, seperti ketika pengguna mengklik sebuah tombol. Anda dapat menempatkan sejumlah skrip dalam dokumen HTML. Skrip dapat ditempatkan di body, atau di head bagian          halaman HTML, atau di keduanya.
+ 3. JavaScript<br>
+    JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif, yang dapat meningkatkan fungsionalitas pada halaman web. JavaScript      untuk memprogram perilaku halaman web. JavaScript functionadalah blok kode JavaScript, yang dapat dieksekusi ketika "dipanggil". Misalnya, suatu fungsi dapat dipanggil ketika suatu       peristiwa terjadi, seperti ketika pengguna mengklik sebuah tombol. Anda dapat menempatkan sejumlah skrip dalam dokumen HTML. Skrip dapat ditempatkan di body, atau di head bagian          halaman HTML, atau di keduanya.<br>
+    a. Aritmatik<br>
+       Operator aritmatika melakukan aritmatika pada bilangan (literal atau variabel).
+       ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/js/Screenshot%20(123).png?rawtrue)
+    
+    b. BigInt<br>
+       Variabel JavaScript BigInt digunakan untuk menyimpan nilai bilangan bulat besar yang terlalu besar untuk diwakili oleh JavaScript normal Number. Bilangan bulat JavaScript hanya           akurat hingga 15 digit. Dalam JavaScript, semua angka disimpan dalam format floating-point 64-bit (standar IEEE 754). Dengan standar ini, bilangan bulat besar tidak dapat                 direpresentasikan secara tepat dan akan dibulatkan. Oleh karena itu, JavaScript hanya dapat merepresentasikan bilangan bulat dengan aman: Hingga 9007199254740991 +(2 53 -1) Dan           Turun ke -9007199254740991 -(2 53 -1). Nilai bilangan bulat di luar kisaran ini kehilangan presisi.
+       ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/js/Screenshot%20(124).png?rawtrue)
 
+    c. Function<br>
+       Fungsi JavaScript adalah blok kode yang dirancang untuk melakukan tugas tertentu. Fungsi JavaScript dijalankan ketika "sesuatu" memanggilnya (memanggilnya). Fungsi JavaScript             didefinisikan dengan functionkata kunci, diikuti dengan nama , diikuti dengan tanda kurung () . Nama fungsi dapat berisi huruf, angka, garis bawah, dan tanda dolar (aturannya sama        seperti variabel). Tanda kurung dapat menyertakan nama parameter yang dipisahkan dengan koma: ( parameter1, parameter2, ... ) Kode yang akan dieksekusi, berdasarkan fungsi,               ditempatkan di dalam tanda kurung kurawal: {}
+       ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/js/Screenshot%20(125).png?rawtrue)
 
-
-     
+    d. Errors<br>
+       Saat menjalankan kode JavaScript, berbagai kesalahan dapat terjadi. Kesalahan dapat berupa kesalahan pengkodean yang dilakukan oleh programmer, kesalahan karena salah input, dan          hal-hal lain yang tidak dapat diperkirakan sebelumnya.<br>
+       - try : mendefinisikan blok kode untuk dijalankan (untuk dicoba).
+       - catch : mendefinisikan blok kode untuk menangani kesalahan apa pun.
+       - finallymendefinisikan blok kode untuk dijalankan apa pun hasilnya.
+       - throw : mendefinisikan kesalahan khusus.
+       ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/js/Screenshot%20(126).png?rawtrue)
+       
