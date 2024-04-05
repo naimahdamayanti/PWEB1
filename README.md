@@ -36,5 +36,39 @@
 
 2. CSS<br>
    CSS adalah bahasa yang kami gunakan untuk menata gaya dokumen HTML. CSS menjelaskan bagaimana elemen HTML harus ditampilkan. CSS adalah singkatan dari Cascading Style Sheet. CSS          menjelaskan bagaimana elemen HTML ditampilkan di layar, kertas, atau di media lain. CSS menghemat banyak pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligus
-   Stylesheet eksternal disimpan dalam file CSS. CSS digunakan untuk menentukan gaya halaman web Anda, termasuk desain, tata letak, dan variasi tampilan untuk berbagai perangkat dan         ukuran layar.
-        
+   Stylesheet eksternal disimpan dalam file CSS. CSS digunakan untuk menentukan gaya halaman web Anda, termasuk desain, tata letak, dan variasi tampilan untuk berbagai perangkat dan         ukuran layar.<br>
+   a. Border<br>
+      Properti border CSS memungkinkan Anda menentukan gaya, lebar, dan warna batas elemen. Properti border-style menentukan jenis batas yang akan ditampilkan. Nilai-nilai berikut              diperbolehkan:
+      - dotted: Mendefinisikan batas titik-titik
+      - dashed: Mendefinisikan batas putus-putus
+      - solid: Mendefinisikan batas yang solid
+      - double: Mendefinisikan perbatasan ganda
+      - groove: Mendefinisikan batas beralur 3D. Efeknya bergantung pada nilai warna batas
+      - ridge: Mendefinisikan batas bergerigi 3D. Efeknya bergantung pada nilai warna batas
+      - inset: Mendefinisikan batas sisipan 3D. Efeknya bergantung pada nilai warna batas
+      - outset: Mendefinisikan batas awal 3D. Efeknya bergantung pada nilai warna batas
+      - none: Tidak mendefinisikan batas
+      - hidden: Mendefinisikan perbatasan tersembunyi
+      Properti border-styledapat memiliki satu hingga empat nilai (untuk batas atas, batas kanan, batas bawah, dan batas kiri).
+      ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(122).png?rawtrue)
+
+  b. Box Model<br>
+     Semua elemen HTML dapat dianggap sebagai box. Dalam CSS, istilah "box model" digunakan ketika berbicara tentang desain dan tata letak. Box model CSS pada dasarnya adalah sebuah box       yang membungkus setiap elemen HTML. Terdiri dari: konten, padding, batas dan margin.<br>
+     Penjelasan dari berbagai bagian:<br>
+     - Content : Isi kotak, tempat teks dan gambar muncul
+     - Padding : Menghapus area di sekitar konten. Bantalannya transparan
+     - Border : Perbatasan yang mengelilingi padding dan konten
+     - Margin : Membersihkan area di luar perbatasan. Marginnya transparan
+     Model kotak memungkinkan kita menambahkan batas di sekitar elemen, dan menentukan ruang antar elemen. 
+     ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(119).png?rawtrue)
+
+  c. Tabel Hover
+     :hover pemilih pada tr untuk menyorot baris tabel dengan mengarahkan mouse, jadi saat kita mengarahkan mouse ke salah 1 baris di tabel maka baris tersebut akan memberikan efek yang       sudah diberikan
+     ![alt text](https://github.com/naimahdamayanti/PWEB1/blob/main/css/Screenshot%20(121).png?rawtrue)
+
+3. JavaScript<br>
+   JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif, yang dapat meningkatkan fungsionalitas pada halaman web. JavaScript      untuk memprogram perilaku halaman web. JavaScript functionadalah blok kode JavaScript, yang dapat dieksekusi ketika "dipanggil". Misalnya, suatu fungsi dapat dipanggil ketika suatu       peristiwa terjadi, seperti ketika pengguna mengklik sebuah tombol. Anda dapat menempatkan sejumlah skrip dalam dokumen HTML. Skrip dapat ditempatkan di body, atau di head bagian          halaman HTML, atau di keduanya.
+
+
+
+     
